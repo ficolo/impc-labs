@@ -1,0 +1,25 @@
+{
+  "name": "impc-aging-data-heatmap",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "gh-pages": "^4.0.0",
+    "parcel": "latest",
+    "process": "^0.11.10",
+    "prop-types": "^15.8.1"
+  },
+  "dependencies": {
+    "@nivo/core": "^0.79.0",
+    "@nivo/heatmap": "^0.79.0",
+    "@nivo/legends": "^0.79.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
