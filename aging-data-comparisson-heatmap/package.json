@@ -2,9 +2,10 @@
   "name": "impc-aging-data-heatmap",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "homepage": "https://ficolo.github.io/impc-labs/",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
+    "build": "parcel build ./src/index.html --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {

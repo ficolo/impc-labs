@@ -91,6 +91,8 @@ const MyResponsiveHeatMapCanvas = ({ data }) => {
           },
         ]}
         annotations={[]}
+        onClick={(cell) => console.log(cell.data)}
+        //hoverTarget="row"
       />
     </>
   );

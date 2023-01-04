@@ -225,6 +225,7 @@ const InnerHeatMapCanvas = <
         ctx.textBaseline = "middle";
 
         cells.forEach((cell) => {
+          //console.log(`cell ${cell.y}`);
           renderCell(ctx, { cell, borderWidth, enableLabels, theme });
         });
       } else if (layer === "legends" && colorScale !== null) {
@@ -329,7 +330,7 @@ const InnerHeatMapCanvas = <
   const [axisOffset, setAxisOffset] = useState(0);
   useEffect(() => {
     const handleScroll = (event) => {
-      console.log("window.scrollY", window.scrollY);
+      //console.log("window.scrollY", window.scrollY);
       setAxisOffset(window.scrollY);
     };
 
@@ -387,7 +388,7 @@ const InnerHeatMapCanvas = <
           bottom={axisBottom as AxisProps<ScaleValue>}
           left={axisLeft as AxisProps<ScaleValue>}
           axisOffset={axisOffset}
-          sticky={false}
+          sticky={true}
         />
       </SvgWrapper>
     </>
