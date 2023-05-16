@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/impc-labs/static/css/main.5b8f3383.css",
-    "main.js": "/impc-labs/static/js/main.c8ff0cb2.js",
+    "main.css": "/impc-labs/static/css/main.073c9b0a.css",
+    "main.js": "/impc-labs/static/js/main.6586b79d.js",
     "static/js/787.3f329318.chunk.js": "/impc-labs/static/js/787.3f329318.chunk.js",
     "index.html": "/impc-labs/index.html",
-    "main.5b8f3383.css.map": "/impc-labs/static/css/main.5b8f3383.css.map",
-    "main.c8ff0cb2.js.map": "/impc-labs/static/js/main.c8ff0cb2.js.map",
+    "main.073c9b0a.css.map": "/impc-labs/static/css/main.073c9b0a.css.map",
+    "main.6586b79d.js.map": "/impc-labs/static/js/main.6586b79d.js.map",
     "787.3f329318.chunk.js.map": "/impc-labs/static/js/787.3f329318.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b8f3383.css",
-    "static/js/main.c8ff0cb2.js"
+    "static/css/main.073c9b0a.css",
+    "static/js/main.6586b79d.js"
   ]
 }
